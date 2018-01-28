@@ -1,0 +1,46 @@
+{
+    "name": "litepubl/installer",
+    "type": "library",
+    "description": "Installer componnent",
+    "keywords": [
+        "installer",
+        "framework",
+        "CMS"
+    ],
+    "homepage": "https:\/\/github.com\/litepubl\/installer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Yushko",
+            "email": "yarrowsoft@gmail.com",
+            "homepage": "http:\/\/litepublisher.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "yarrowsoft@gmail.com",
+        "source": "https:\/\/github.com\/litepubl\/container\/releases",
+        "doc": "http:\/\/litepublisher.ru\/"
+    },
+    "require": {
+        "php": ">=7.2.0",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "codeception/codeception" : "^2.3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "LitePubl\\Installer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\installer\\": "tests/support/",
+            "tests\\installer\\unit\\": "tests/unit/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
