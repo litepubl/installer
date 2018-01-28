@@ -1,8 +1,11 @@
 <?php
 
-namespace LitePubl\Container\Installer;
+namespace LitePubl\Installer\Adapter;
 
-trait InstallerToSelfTrait
+use LitePubl\Installer\Interfaces\InstallerInterface;
+use LitePubl\Installer\Interfaces\SelfInstallerInterface;
+
+class SelfInstaller implements InstallerInterface
 {
     public function install(object $instance): void
     {

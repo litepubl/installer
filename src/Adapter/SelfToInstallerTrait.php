@@ -1,10 +1,10 @@
 <?php
 
-namespace LitePubl\Container\Installer;
+namespace LitePubl\Installer\Adapter;
 
-use LitePubl\Container\Interfaces\InstallerInterface;
+use LitePubl\Installer\Interfaces\InstallerInterface;
 
-trait InstallerToSelfTrait
+class SelfInstaller
 {
     abstract public function getInstaller(): InstallerInterface;
 

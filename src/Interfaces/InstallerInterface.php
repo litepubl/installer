@@ -1,6 +1,6 @@
 <?php
 
-namespace LitePubl\Container\Interfaces;
+namespace LitePubl\Installer\Interfaces;
 
 interface InstallerInterface
 {
